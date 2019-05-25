@@ -22,6 +22,7 @@ def remove_strawberry(contacts)
         if key == :favorite_ice_cream_flavors
           value.delete_if == "strawberry"
         end
+        end
     end
   end
 end
