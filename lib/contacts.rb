@@ -14,13 +14,16 @@ require 'pry'
      }
    }
 
-def remove_strawberry(contacts)
+#def remove_strawberry(contacts)
   #need to remove strawberry ice ice creams
-  contacts.each do |name, data|
-      data.each do |key, value|
-        if key == :favorite_ice_cream_flavors
-          value.delete_if {|ice_cream| ice_cream == "strawberry"}
-        end
-      end
-  end
+  #contacts.each do |name, data|
+      #data.each do |key, value|
+        #if key == :favorite_ice_cream_flavors
+        #  value.delete_if {|ice_cream| ice_cream == "strawberry"}
+        #end
+      #end
+  #end
+#end
+
+def remove_strawberry(contacts)
 end
